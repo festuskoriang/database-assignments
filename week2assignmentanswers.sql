@@ -1,1 +1,27 @@
+USE sales;
+-- question 1
+SELECT checkNumber, paymentDate, amount
+FROM payments;
+  
+-- question 2
+SELECT orderDate, requiredDate, status
+FROM orders
+WHERE status = 'In Process'
+ORDER BY orderDate DESC;
+
+-- question 3
+SELECT firstName, lastName, email
+FROM employees
+where jobTitle = 'sales Rep'
+ORDER BY employeeNumber DESC;
+
+-- question 4
+SELECT * FROM offices
+
+-- question 5
+SELECT productName, quantityinstock
+FROM products
+ORDER BY buyPrice ASC
+LIMIT 5;
+
 
