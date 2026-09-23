@@ -16,7 +16,7 @@ where jobTitle = 'sales Rep'
 ORDER BY employeeNumber DESC;
 
 -- question 4
-SELECT * FROM offices
+SELECT * FROM offices;
 
 -- question 5
 SELECT productName, quantityinstock
